@@ -3,9 +3,9 @@ const cors = require('cors');
 const request = require('request');
 
 const app = express();
-const PORT= process.env.PORT || 3000
+const PORT = process.env.PORT || 3000
 app.use(cors());
-app.use(express.static('public'));
+app.use(express.static('ludo'));
 
 app.get('/getAllEvents', (req, res) => {
 	request(
