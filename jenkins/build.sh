@@ -1,4 +1,3 @@
-npm run build
 npm start
 set +x
 echo 'Now...'
